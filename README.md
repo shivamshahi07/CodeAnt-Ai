@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CodeAnt AI Frontend Project
 
-## Getting Started
+This project is a frontend-only website based on a Figma design provided by CodeAnt AI for their frontend developer internship role, YC-w24.
 
-First, run the development server:
+## Project Setup
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Follow these steps to set up the project:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the repository:**
+    ```bash
+    git clone git@github.com:shivamshahi07/CodeAnt-Ai.git
+    cd codeant-ai
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install dependencies:**
+    Make sure you have Node.js and npm installed. Then, run:
+    ```bash
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+4. **Build for production:**
+    To create an optimized production build, run:
+    ```bash
+    npm run build
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+5. **Start the production server:**
+    After building the project, you can start the production server with:
+    ```bash
+    npm start
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Description
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is a frontend-only website developed using Next.js. It is based on a Figma design provided by CodeAnt AI. The website includes the following features:
 
-## Deploy on Vercel
+- Responsive design
+- Interactive UI components
+- Integration with mock APIs for data fetching
+- Modern styling using CSS modules or styled-components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The goal of this project is to demonstrate proficiency in frontend development and the ability to translate design files into functional web pages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Technologies Used
+
+- Next.js
+- React
+- CSS Modules / Styled-components
+-  TypeScript 
+- Figma (for design reference)
+
+## Contributing
+
+If you would like to contribute to this project, please fork the repository and create a pull request with your changes. Make sure to follow the code style and include tests for any new features.
+
+## License
+
+This project is licensed under the MIT License.
