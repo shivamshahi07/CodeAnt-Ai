@@ -19,11 +19,11 @@ import {
           <SelectContent>
             <SelectGroup>
               <SelectLabel>Profile</SelectLabel>
-              <SelectItem value="a">Option A</SelectItem>
-              <SelectItem value="b">Option B</SelectItem>
-              <SelectItem value="c">Option C</SelectItem>
-              <SelectItem value="d">Option D</SelectItem>
-              <SelectItem value="e">Option E</SelectItem>
+              <SelectItem value="a">UtkarshDhairyaPanwar</SelectItem>
+              <SelectItem value="b">Option A</SelectItem>
+              <SelectItem value="c">Option B</SelectItem>
+              <SelectItem value="d">Option C</SelectItem>
+              <SelectItem value="e">Option D</SelectItem>
             </SelectGroup>
           </SelectContent>
         </Select>
