@@ -1,5 +1,5 @@
 import StackedCards from "@/components/StackedCards";
-import Image from "next/image";
+
 
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
