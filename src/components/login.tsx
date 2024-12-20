@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import { Button } from "./ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
